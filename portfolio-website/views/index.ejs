@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>
+        SJ pixel art portfolio
+    </title>
+
+</head>
+
+<body>
+
+   <%- include('partials/head.ejs') %>
+   
+    <main>
+
+        <div class="portfolio-parts">
+            <div class="menu-container">
+                <a href="/landscapes"><img src="/images/landscapes_icon.png" class="image-link" style="max-width:100%"></a>
+                <div class="middle">
+                    <div class="text">Landscapes</div>
+                </div>
+            </div>
+            <div class="menu-container">
+                <a href="/portraits"><img src="/images/portraits_icon.png" class="image-link"></a>
+                <div class="middle">
+                    <div class="text">Portraits</div>
+                </div>
+            </div>
+                <br>
+            <div class="menu-container">
+                <a href="/misc"><img src="/images/icons_icon.png"class= "image-link"></a>
+                <div class="middle">
+                    <div class="text">Miscellaneous</div>
+                </div>
+            </div>    
+            <div class="menu-container">
+                <a href="/animations"><img src="/images/animation_icon.gif"class="image-link"></a>
+                <div class="middle">
+                    <div class="text">Animations</div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>

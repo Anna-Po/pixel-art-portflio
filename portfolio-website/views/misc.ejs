@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/lightbox.css">
+
+    <title>
+        Portraits
+    </title>
+
+</head>
+
+<body>
+
+    <%- include('partials/head.ejs') %>
+
+    <header>
+        <h1> <a href="/portraits">&#8592</a> Miscellaneous <a href="/animations">&#8594</a></h1>
+    </header>
+   
+    <main>
+        <div class="container">
+            <div class="subcontainer">
+
+                <div class="grid">
+                    <a href="images/misc/baked_goods.png" data-title="Baked goods" data-lightbox="baked-img" class="img-misc"></a>
+                    <a href="images/misc/flowers.png" data-title="Flowers" data-lightbox="flowers-img" class="img-misc"></a>
+                    <a href="images/misc/trees_tw.png" data-title="Trees" data-lightbox="trees-img" class="img-misc wide"></a>
+                    <a href="images/misc/train1t.png" data-title="Train" data-lightbox="train-img" class="img-misc wide"></a>
+                    <a href="images/misc/loot.png" data-title="Loot" data-lightbox="loot-img" class="img-misc"></a>
+                    <a href="images/misc/16_icons.png" data-title="Commission for Qazqaz#5868" data-lightbox="icons-img" class="img-misc"></a>
+                    <a href="images/misc/radio1-export.png" data-title="An old radio" data-lightbox="radio-img" class="img-misc"></a>
+                    <a href="images/misc/study1.png" data-title="Study of a small mosaic" data-lightbox="study-img" class="img-misc"></a>
+                    <a href="images/misc/relics_fin.png" data-title="Commission for u/Michaelsoftman56 on Reddit" data-lightbox="relics-img" class="img-misc tall"></a>
+                    <a href="images/misc/pine_tree.png" data-title="Pine tree" data-lightbox="pine-img" class="img-misc tall"></a>
+                    <a href="images/misc/cat.png" data-title="Fishercat" data-lightbox="cat-img" class="img-misc"></a>
+                    <a href="images/misc/3_plants.png" data-title="Cat among plants" data-lightbox="plants-img" class="img-misc"></a>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <%- include("partials/footer.ejs") %>
+<script src="/lightbox-plus-jquery.js"></script>
+</body>
+</html>

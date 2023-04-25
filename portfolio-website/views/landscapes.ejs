@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/lightbox.css">
+    <link rel="stylesheet" href="/styles.css">
+
+    <title>
+        Landscapes
+    </title>
+
+</head>
+
+<body>
+
+    <%- include('partials/head.ejs') %>
+
+    <header>
+        <h1> <a href="/animations">&#8592</a> Landscapes <a href="/portraits">&#8594</a></h1>
+    </header>
+   
+    <main>
+        <div class="container">
+            <div class="subcontainer">
+
+                <div class="grid">
+                    <a href="images/landscapes/landscape13.png" data-title="River and a bridge" data-lightbox="river-bridge-img" class="img-landscape"></a>
+                    <a href="images/landscapes/comm_for_jackaloppy_fin.png" data-title="Cityscape, commission for u/jackaloppy on Reddit" data-lightbox="cityscape-img" class="img-landscape"></a>
+                    <a href="images/landscapes/landscape3.png" data-title="Sunset" data-lightbox="sunset-img" class="img-landscape tall"></a>
+                    <a href="images/landscapes/landscape5.png" data-title="Graveyard" data-lightbox="graveyard-img" class="img-landscape tall"></a>
+                    <a href="images/landscapes/icepalacebgwip4-export.png" data-title="Ice palace, commission for u/Cruset on Reddit" data-lightbox="ice-palace-img" class="img-landscape wide"></a>
+                    <a href="images/landscapes/pxlriver4x.png" data-title="River" data-lightbox="river-img" class="img-landscape"></a>
+                    <a href="images/landscapes/georgian_house2.gif" data-title="Georgian house" data-lightbox="house-img" class="img-landscape"></a>
+                    <a href="images/landscapes/horse2.gif" data-title="Horse, used by @somaaudio1176 on YouTube" data-lightbox="horse-img" class="img-landscape"></a>
+                    <a href="images/landscapes/deers.png" data-title="Deer on their way" data-lightbox="deer-img" class="img-landscape"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <%- include("partials/footer.ejs") %>
+<script src="/lightbox-plus-jquery.js"></script>
+</body>
+</html>

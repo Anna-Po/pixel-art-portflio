@@ -1,0 +1,312 @@
+@font-face {
+    font-family: pixel-title;
+    src: url(upheavtt.ttf);
+}
+@font-face {
+    font-family: pixel-gen;
+    src: url(Pixeled.ttf);
+}
+
+
+h1 {
+    color:rgb(195, 232, 131);
+    text-align: center;
+    font-size: 48px;
+    font-family: pixel-title;
+}
+
+.about {
+    font-size: 24px;
+    font-family: Verdana;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+}
+
+a:link {
+    color: rgb(166, 183, 106);
+}
+a:visited {
+    color: rgb(166, 183, 106);
+}
+a:hover {
+    background-color: rgb(34, 45, 81);
+}
+a:active {
+    color: blue;
+}
+.header-links ul, footer{
+    font-size: 16px;
+    font-family: pixel-gen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(149, 183, 90);
+    margin-bottom: 40px;
+    padding-inline: 20%;
+}
+.header-links li{
+    list-style-type: none;
+}
+
+body{
+    background-color: rgb(36, 35, 34);
+    background-image: url(images/landscapes/background.png);
+}
+
+
+.portfolio-parts {
+    display: block;
+    text-align: center;
+}
+
+.menu-container {
+    display: inline;
+    position: relative;
+}
+  
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 60%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.img-landscape {
+    width: 100%;
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    border-radius: 3px;
+}
+
+.img-portrait {
+    width: 100%;
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    border-radius: 3px;
+}
+
+.img-misc {
+    width: 100%;
+    min-height: 320px;
+    background-position: center;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    border-radius: 3px;
+}
+
+.img-animations {
+    width: 100%;
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    border-radius: 3px;
+}
+
+.tall {
+    min-height: 640px;
+}
+
+.wide {
+    min-height: 320px;
+}
+
+.img-landscape:nth-child(1){
+    background-image: url(images/landscapes/landscape13.png);
+    grid-column: 1/3;
+}
+.img-landscape:nth-child(2){
+    background-image: url(images/landscapes/comm_for_jackaloppy_fin.png);
+    grid-column: 1/3;
+}
+.img-landscape:nth-child(3){
+    background-image: url(images/landscapes/landscape3.png);
+    grid-row: 4/6;
+}
+.img-landscape:nth-child(4){
+    background-image: url(images/landscapes/landscape5.png);
+    grid-row: 4/6;
+}
+.img-landscape:nth-child(5){
+    background-image: url(images/landscapes/icepalacebgwip4-export.png);
+    grid-column: 1/3;
+}
+.img-landscape:nth-child(6){
+    background-image: url(images/landscapes/pxlriver4x.png);
+    grid-column: 1/3;
+}
+.img-landscape:nth-child(7){
+    background-image: url(images/landscapes/georgian_house2.gif);
+}
+.img-landscape:nth-child(8){
+    background-image: url(images/landscapes/horse2.gif);
+}
+.img-landscape:nth-child(9){
+    background-image: url(images/landscapes/deers.png);
+    grid-column: 1/3;
+}
+
+
+.img-portrait:nth-child(1){
+    background-image: url(images/portraits/portraits_example.png);
+
+}
+.img-portrait:nth-child(2){
+    background-image: url(images/portraits/character_idle.gif);
+
+}
+.img-portrait:nth-child(3){
+    background-image: url(images/portraits/character2_bird.gif);
+    grid-column: 1/3;
+}
+.img-portrait:nth-child(4){
+    background-image: url(images/portraits/furry_icon.png);
+}
+.img-portrait:nth-child(5){
+    background-image: url(images/portraits/greed_master.png);
+}
+.img-portrait:nth-child(6){
+    background-image: url(images/portraits/centaur.png);
+}
+.img-portrait:nth-child(7){
+    background-image: url(images/portraits/engineer-export.png);
+}
+
+.img-misc:nth-child(1){
+    background-image: url(images/misc/baked_goods.png);
+}
+.img-misc:nth-child(2){
+    background-image: url(images/misc/flowers.png);
+}
+.img-misc:nth-child(3){
+    background-image: url(images/misc/trees_tw.png);
+    grid-column: 1/3;
+}
+.img-misc:nth-child(4){
+    background-image: url(images/misc/train1t.png);
+    grid-column: 1/3;
+}
+.img-misc:nth-child(5){
+    background-image: url(images/misc/loot.png);
+}
+.img-misc:nth-child(6){
+    background-image: url(images/misc/16_icons.png);
+}
+.img-misc:nth-child(7){
+    background-image: url(images/misc/radio1-export.png);
+}
+.img-misc:nth-child(8){
+    background-image: url(images/misc/study1.png);
+}
+.img-misc:nth-child(9){
+    background-image: url(images/misc/relics_fin.png);
+}
+.img-misc:nth-child(10){
+    background-image: url(images/misc/pine_tree.png);
+}
+.img-misc:nth-child(11){
+    background-image: url(images/misc/cat.png);
+}
+.img-misc:nth-child(12){
+    background-image: url(images/misc/3_plants.png);
+}
+
+.img-animations:nth-child(1){
+    background-image: url(images/animations/final_for_frozen_treats-export.gif);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.img-animations:nth-child(2){
+    background-image: url(images/animations/frog1_jump.gif);
+    grid-column: 1/3;
+}
+.img-animations:nth-child(3){
+    background-image: url(images/animations/forklift.gif);
+    grid-column: 1/3;
+}
+.img-animations:nth-child(4){
+    background-image: url(images/animations/monster1_idle.gif);
+}
+.img-animations:nth-child(5){
+    background-image: url(images/animations/monster2_idle.gif);
+}
+.img-animations:nth-child(6){
+    background-image: url(images/animations/monster3.gif);
+}
+.img-animations:nth-child(7){
+    background-image: url(images/animations/warrior_green.gif);
+}
+.img-animations:nth-child(8){
+    background-image: url(images/animations/penguin_idle_exp.gif);
+}
+.img-animations:nth-child(9){
+    background-image: url(images/animations/penguin_fire_exp.gif);
+}
+.img-animations:nth-child(10){
+    background-image: url(images/animations/jackal_walk.gif);
+}
+.img-animations:nth-child(11){
+    background-image: url(images/animations/crown2.gif);
+}
+
+
+
+
+
+@media(max-width:1600px) {
+    .container {
+        width:100%;
+    }
+}
+
+
+.image-link {
+    opacity: 1;
+    display: inline;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 3px;
+}
+
+.menu-container:hover .image-link {
+    opacity: 0.9;
+}
+
+.menu-container:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+    font-family: pixel-gen;
+    background-color: rgba(32, 34, 45, 0.9);
+    color: rgb(166, 183, 106);
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}

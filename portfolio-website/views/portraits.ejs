@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/lightbox.css">
+
+    <title>
+        Portraits
+    </title>
+
+</head>
+
+<body>
+
+    <%- include('partials/head.ejs') %>
+
+    <header>
+        <h1> <a href="/landscapes">&#8592</a> Portraits and characters <a href="/misc">&#8594</a></h1>
+    </header>
+   
+    <main>
+        <div class="container">
+            <div class="subcontainer">
+
+                <div class="grid">
+                    <a href="images/portraits/portraits_example.png" data-title="Portraits commission for carpercreative.com" data-lightbox="portraits-img" class="img-portrait"></a>
+                    <a href="images/portraits/character_idle.gif" data-title="Character idle and portrait" data-lightbox="character-img" class="img-portrait"></a>
+                    <a href="images/portraits/character2_bird.gif" data-title="Man with a staff and a bird lady" data-lightbox="two-characters-img" class="img-portrait long"></a>
+                    <a href="images/portraits/furry_icon.png" data-title="Character icon" data-lightbox="furry-icon-img" class="img-portrait"></a>
+                    <a href="images/portraits/greed_master.png" data-title="Greed master" data-lightbox="greed-master-img" class="img-portrait long"></a>
+                    <a href="images/portraits/centaur.png" data-title="Centaur" data-lightbox="centaur-img" class="img-portrait"></a>
+                    <a href="images/portraits/engineer-export.png" data-title="Engineer from TF2 fan art" data-lightbox="engineer-img" class="img-portrait"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <%- include("partials/footer.ejs") %>
+<script src="/lightbox-plus-jquery.js"></script>
+</body>
+</html>
